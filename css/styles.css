@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Title */
+#title{
+  background: #FFC93C;
+}
+
+#features {
+  padding: 4rem 3rem;
+}
+
+#details {
+  padding: 10rem 3rem;
+  background: #07689F;
+}
+
+#cta {
+
+  padding: 4rem 3rem;
+}
+
+footer {
+  background: #A2D5F2;
+  padding: 7rem 5rem;
+}
