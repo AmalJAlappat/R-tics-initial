@@ -14,22 +14,74 @@ p {
 #title{
   background: #FFC93C;
 }
+.contain{
+  margin-top: 5rem;
+  margin-bottom: 1.5rem;
+}
 
+.search_expand{
+display: inline-block;
+width: 22rem;
+  height: 2.5rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  font-size: 19px;
+  padding-left: 20px;
+  color: gray;
+  box-shadow: -4px -4px 15px #EDEFF1, 4px 4px 15px #CACFD8;
+
+}
+
+
+.search_invisible{
+  display: none;
+}
+
+.button_style{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.fa-search{
+  font-size: 1.5rem;
+}
+/* Search when clicked */
+
+/* Featues */
 #features {
   padding: 4rem 3rem;
 }
 
+.feature-icon{
+  font-size: 3rem;
+  color: red;
+}
+
+/* Details */
 #details {
   padding: 10rem 3rem;
   background: #07689F;
+  color: white;
 }
 
+/* Call to action */
 #cta {
 
   padding: 4rem 3rem;
 }
 
+/* Footer */
 footer {
   background: #A2D5F2;
-  padding: 7rem 5rem;
+  padding: 5rem 5rem 5px;
+}
+.out-links{
+  padding: 0 2rem 5rem;
+  color: black;
+}
+.Copyright{
+  color: grey;
+  pa
 }

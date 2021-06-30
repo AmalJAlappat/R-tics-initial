@@ -23,14 +23,18 @@
   <section id="title">
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid ">
+        <a class="navbar-brand" href="#">R-Tics</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item search_compressed">
+              <input type="text" class="search_expand search_invisible" placeholder="Search here..">
+              <button type="button" class="button_style" name="button"> <i class="fas fa-search"></i></button>
+            </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -40,6 +44,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Pricing</a>
             </li>
+
             <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown link
@@ -56,13 +61,13 @@
     </nav>
 
     <!-- Title -->
-    <div class="row">
-      <div class="col-lg-6">
-        <h1>SHOP AS EFFICIENTLY AS POSSIBLE USING <em><strong><span style="white-space: nowrap">R-TICS </span></strong></em></h1>
-        <button type="button" class="btn btn-lg btn-light" name="button"><i class="fab fa-apple"></i> Download</button>
-        <button type="button" class="btn btn-lg btn-dark" name="button"><i class="fab fa-google-play"></i> Download</button>
+    <div class="row ">
+      <div class="contain col-lg-6">
+        <h1 class="contain ">SHOP AS EFFICIENTLY AS POSSIBLE USING <em><strong><span style="white-space: nowrap">R-TICS </span></strong></em></h1>
+        <button type="button" class="contain btn btn-lg btn-light" name="button"><i class="fab fa-apple"></i> Download</button>
+        <button type="button" class="contain btn btn-lg btn-dark" name="button"><i class="fab fa-google-play"></i> Download</button>
       </div>
-      <div class="col-lg-6">
+      <div class="contain col-lg-6">
         <img src="./images/logo1.png" alt="">
       </div>
     </div>
@@ -72,12 +77,12 @@
   <section id="features">
     <div class="row">
       <div class="col-lg-6">
-        <i class="fas fa-check-circle featured-icon"></i>
+        <i class="fas  feature-icon fa-check-circle featured-icon"></i>
         <h3 class="feature-title">Easy to use.</h3>
         <p class="featured-p">So easy that anyone could use it.</p>
       </div>
       <div class="col-lg-6">
-        <i class="fas fa-bullseye featured-icon"></i>
+        <i class="fas  feature-icon fa-bullseye featured-icon"></i>
         <h3 class="feature-title">Accurate information.</h3>
         <p class="featured-p">Find the most trustable infomation.</p>
       </div>
@@ -86,15 +91,26 @@
   </section>
 
   <section id="details">
-    <h2>Get ready to find the most time saving solution for your day to day shopping</h2>
-    <p>Shopping made easy.Don't waste time going to different supermarkets to get all your products.Search for the nearest one that will fulfill all your needs here at R-Tics</p>
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="bubble bubble1" src="./images/clean.png" alt="">
+        <h2>Get ready to find the most time saving solution for your day to day shopping</h2>
+        <p>Shopping made easy.Don't waste time going to different supermarkets to get all your products.Search for the nearest one that will fulfill all your needs here at R-Tics</p>
+        <img class="bubble bubble2" src="./images/clean.png" alt="">
+      </div>
+      <div class="col-lg-6">
+        <img class="bubble bubble3" src="./images/clean.png" alt="">
+        <img src="./images/time.png" alt="">
+      </div>
+    </div>
+
   </section>
 
   <!-- Call to Action -->
 
   <section id="cta">
 
-    <h3 class="last-heading">Find the True Love of Your Dog's Life Today.</h3>
+    <h3 class="last-heading">Be part of the new trend.</h3>
     <button type="button" class="btn btn-lg btn-light" name="button"><i class="fab fa-apple"></i> Download</button>
     <button type="button" class="btn btn-lg btn-dark" name="button"><i class="fab fa-google-play"></i> Download</button>
 
@@ -104,12 +120,15 @@
   <!-- Footer -->
 
   <footer class="white-section" id="footer">
-    <a href="https://twitter.com/"><i class="fab bottom-icon fa-twitter"></i></a>
-    <a href="https://www.facebook.com/"><i class="fab bottom-icon fa-facebook-f"></i></a>
-    <a href="https://www.instagram.com/"><i class="fab bottom-icon fa-instagram"></i></a>
-    <a href="https://www.envelopes.com/"><i class="fas bottom-icon fa-envelope"></i></a>
+    <div class="">
+      <a href="https://twitter.com/"><i class="fab out-links bottom-icon fa-twitter"></i></a>
+      <a href="https://www.facebook.com/"><i class="fab out-links bottom-icon fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/"><i class="fab out-links bottom-icon fa-instagram"></i></a>
+      <a href="https://www.envelopes.com/"><i class="fas out-links bottom-icon fa-envelope"></i></a>
 
-    <p>© Copyright 2018 TinDog</p>
+    </div>
+    <p class="Copyright">© Copyright 2020 R-Tics</p>
+
 
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
