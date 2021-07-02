@@ -1,8 +1,19 @@
+/* Google-Fonts */
+/* font-family: 'Josefin Slab', serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Noto Serif TC', serif;
+font-family: 'STIX Two Math', serif; */
+
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.download{
+  font-family: 'Noto Serif TC', serif;
 }
 
 p {
@@ -13,6 +24,10 @@ p {
 /* Title */
 #title{
   background: #FFC93C;
+}
+
+.heading{
+  font-family: 'STIX Two Math', serif;
 }
 .contain{
   margin-top: 5rem;
